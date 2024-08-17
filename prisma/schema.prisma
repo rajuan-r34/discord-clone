@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider      = "postgresql"
-  url           = env("DATABASE_URL")
+  url           = "postgresql://discord_clone_536z_user:YmtMUrwJACve4oWjXZ9YD18iA75nbh5d@dpg-cr08ksjv2p9s73a3eevg-a/discord_clone_536z"
   relationMode  = "prisma"
 }
 
